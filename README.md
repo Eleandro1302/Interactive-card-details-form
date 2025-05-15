@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [View on Frontend Mentor](https://www.frontendmentor.io/)
-- Live Site URL: [Access the live project](https://eleandro-card-details-form.netlify.app/)
+- Solution URL: [View on Frontend Mentor](https://www.frontendmentor.io/solutions/interactive-card-details-form-imvNCk_Zr-)
+- Live Site URL: [Access the live project](https://eleandro1302.github.io/Interactive-card-details-form/)
 
 ## Highlights
 
@@ -100,7 +100,7 @@ cvcIn.oninput = function () {
 
 ## Author
 
-- Frontend Mentor - [Eleandro](https://www.)
+- Frontend Mentor - [Eleandro](https://www.frontendmentor.io/solutions/interactive-card-details-form-imvNCk_Zr-)
 - GitHub - [Eleandro](https://github.com/eleandro1302)
 - LinkedIn - [Eleandro](https://www.linkedin.com/in/eleandro-mangrich/)
 
@@ -141,8 +141,8 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- URL da solução: [Veja no Frontend Mentor](https://www.frontendmentor.io/solutions/interactive-card-details-form-sVbujGc_Ns)
-- URL do site ao vivo: [Acesse o projeto ao vivo](https://eleandro-card-details-form.netlify.app/)
+- URL da solução: [Veja no Frontend Mentor](https://www.frontendmentor.io/solutions/interactive-card-details-form-imvNCk_Zr-)
+- URL do site ao vivo: [Acesse o projeto ao vivo](https://eleandro1302.github.io/Interactive-card-details-form/)
 
 ## Destaques
 
@@ -208,7 +208,7 @@ cvcIn.oninput = function () {
 
 ## Autor
 
-- Frontend Mentor - [Eleandro](https://www.)
+- Frontend Mentor - [Eleandro](https://www.frontendmentor.io/solutions/interactive-card-details-form-imvNCk_Zr-)
 - GitHub - [Eleandro](https://github.com/eleandro1302)
 - LinkedIn - [Eleandro](https://www.linkedin.com/in/eleandro-mangrich/)
 
