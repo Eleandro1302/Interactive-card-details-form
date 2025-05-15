@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
 
 :root {
-  /* PRIMARY */
+
   --linear-gradient: linear-gradient(hsl(308, 47%, 21%), hsl(278, 68%, 16%));
   --red: hsl(0, 100%, 66%);
   /* NEUTRAL */
