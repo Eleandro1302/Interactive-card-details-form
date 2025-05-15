@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+   
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/screenshot.png"
+      title="Interactive Card Details Form"
+    />
+
+    <title>Interactive card details form</title>
+
+  
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/queries.css" />
+  </head>
+  <body>
+  
+    <main>
+      <h1 class="hidden">Interactive Card Details Form</h1>
+     
+      <div class="cards-container">
+        <div class="cards">
+          <div class="cards__card cards__card--front">
+            <img class="card__logo" src="assets/images/card-logo.svg" alt="" />
+            <span class="card__number">0000 0000 0000 0000</span>
+            <span class="card__name">Jane Appleseed</span>
+            <span class="card__date">00/00</span>
+          </div>
+          <div class="cards__card cards__card--back">
+            <span class="card__code">000</span>
+          </div>
+        </div>
+      </div>
+      <div class="form-container">
+        <form class="form">
+          <div class="form-control form-control--name">
+            <label id="name-label" for="name-input">Cardholder Name</label>
+            <input
+              aria-labelledby="name-label"
+              aria-errormessage="name-error"
+              aria-invalid="false"
+              id="name-input"
+              type="text"
+              placeholder="e.g. Jane Appleseed"
+              maxlength="22"
+            />
+            <p
+              aria-hidden="true"
+              class="form-control--error-message"
+              id="name-error"
+            >
+              Error
+            </p>
+          </div>
+          <div class="form-control form-control--number">
+            <label id="number-label" for="number-input">Card Number</label>
+            <input
+              aria-labelledby="number-label"
+              aria-errormessage="number-error"
+              aria-invalid="false"
+              id="number-input"
+              type="text"
+              placeholder="e.g. 1234 5678 9123 0000"
+              maxlength="19"
+            />
+            <p
+              aria-hidden="true"
+              class="form-control--error-message"
+              id="number-error"
+            >
+              Error
+            </p>
+          </div>
+          <div class="form-control__group">
+            <div class="form-control form-control--date">
+              <label id="date-month-label" for="date-month-input">
+                Exp. Date (MM/YY)
+              </label>
+              <input
+                aria-labelledby="date-month-label"
+                aria-errormessage="date-error"
+                aria-invalid="false"
+                id="date-month-input"
+                type="text"
+                placeholder="MM"
+                maxlength="2"
+              />
+              <input
+                aria-labelledby="date-month-label"
+                aria-errormessage="date-error"
+                aria-invalid="false"
+                id="date-year-input"
+                type="text"
+                placeholder="YY"
+                maxlength="2"
+              />
+              <p
+                aria-hidden="true"
+                class="form-control--error-message"
+                id="date-error"
+              >
+                Error
+              </p>
+            </div>
+            <div class="form-control form-control--cvc">
+              <label id="cvc-label" for="cvc-input">CVC</label>
+              <input
+                aria-labelledby="cvc-label"
+                aria-errormessage="cvc-error"
+                aria-invalid="false"
+                id="cvc-input"
+                type="text"
+                placeholder="e.g. 123"
+                maxlength="3"
+              />
+              <p
+                aria-hidden="true"
+                class="form-control--error-message"
+                id="cvc-error"
+              >
+                Error
+              </p>
+            </div>
+          </div>
+          <button class="btn btn--form" type="submit">Confirm</button>
+        </form>
+        <div class="completed hidden">
+          <img
+            src="assets/images/icon-complete.svg"
+            alt=""
+            class="completed__img"
+          />
+          <h2 class="completed__title">Thank you!</h2>
+          <p class="completed__text">We've added your card details</p>
+          <button class="btn btn--completed">Continue</button>
+        </div>
+      </div>
+    </main>
+    <footer class="footer flex-center footer--friendly">
+      <div class="footer__attribution">
+        <p>
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+        </p>
+      </div>
+      <div class="footer__divider">&boxv;</div>
+      <div class="footer__contact">
+        <p>
+          Contact me on
+          <a href="https://www.linkedin.com/in/eleandro-mangrich/" target="_blank">LinkedIn</a> - Eleandro Mangrich
+        </p>
+      </div>
+    </footer>
+
+    
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
